@@ -1,0 +1,75 @@
+roles
+how to use em
+maintenance plan
+monitoring plan
+backup and recovery
+Creation of new data files and tablespaces, and/or
+? Duplexing and multiplexing of control and redo log files and/or
+? Creation of some USERs
+
+? Alternative methods of backups, exports, scheduled backups, hot backup
+? Demonstration of a DB recovery from cold backup or exports or other methods.
+? Creation of multiple users and application of appropriate security measures – roles, privileges and profiles.
+? Demonstration of security auditing
+
+? Advanced replication between multiple instances.
+? Demonstration of Oracles DR standby database option.
+? Demonstration of a complex recovery including the application of archived redo logs.
+? Demonstration of XML database
+? Oracle Virtual Private Database
+? Implementation of OS level authentication
+? Demonstration of Oracle’s Tuning features
+? Demonstration of table partitioning options
+
+1. A working Oracle Enterprise Database implemented on your Virtual Machine.
+2. Demonstrated Client connectivity to the Oracle DBMS Server using at least two client applications. (for example, SQL Developer, and Enterprise Manager Console.)
+3. Appropriately created user accounts. I suggest demonstrating 3 levels of users (Roles) – for eg. Administrator, Power User, and Guest style users.
+4. Appropriate levels of security implemented via ROLES and PRIVILEGES for Roles.
+5. Documentation for the installation and environment – (consider the audience to be a reasonably competent DBA).
+6. Individual personal log/reflections/timesheets. Record time spent and other items of interest.
+7. Implementation and demonstration of the Enterprise Toolset – this includes the browser based Enterprise console.
+
+Develop and document an implementation plan ?
+?
+? Specify the database ?
+Configuration options, tablespaces, extent and block size, rollback allocation etc. Redo (Txn) log files – how many, archivelog mode?
+Which Oracle Version are we using, 9i, 10g, 11g ?? 64bit / 32bit?
+? Research and apply necessary upgrades/patches to Oracle installation. (note installation media will be at a certain version, a variety of “patches” may well be current and need to be installed – you need to figure this out). ?
+?
+? Specify a security plan ?
+Implement appropriate user profiles, access rights, DBA accounts etc
+? Develop User documentation ?
+?
+? Develop Technical Documentation ?
+?
+? Project management considerations ?
+?
+? Change management plan, Develop Change control procedures ?
+?
+? Research and develop implementation plan for Oracle Apache HTTP server, test web scripting PHP, XSQL or Oracle JSP pages showing connectivity to DB (this would be highly regarded). ?
+?
+? Test Client installations ?
+?
+? Test RDBMS from client installs, can you create a table, create a procedure, etc. ?
+?
+? Test database web access from clients ?
+?
+? Develop DBA Maintenance plan, scripts and schedules ?
+?
+? Develop performance monitoring plan / scripts ?
+?
+? Develop a backup and recovery plan. Have you backed your DB up? Do you know how to? ?
+?
+? Develop a disaster recovery plan. ?
+
+Security
+Develop documents and implements database security policy and plan, create Oracle ROLES, user names and logins, assign roles to logins and document a comprehensive security policy.
+
+Database Administration
+Design, develop, document and implement Oracle Enterprise RDBMS.
+
+Maintenance / Upgrade
+Research existing Oracle installation – provide/share information with DBA team, discover and document via Metalink upgrades to Oracle installation and apply upgrades as necessary. Develop and document a DB backup strategy, DBA maintenance scripts and schedules for existing DEV database instance. Modify scripts so that they can be run against the new database instance.
+
+Internet Development/implementation
+Design, develop, document and implement browser / database connectivity application. Test and demonstrate web client to DB connectivity, PhP, XSQL, XML, JSP,

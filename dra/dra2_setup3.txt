@@ -1,0 +1,24 @@
+
+System altered.
+
+select * from hr.regions
+                 *
+ERROR at line 1:
+ORA-01578: ORACLE data block corrupted (file # 5, block # 12) 
+ORA-01110: data file 5: '/u01/app/oracle/oradata/patrickcura/example01.dbf' 
+
+
+select * from hr.locations
+                 *
+ERROR at line 1:
+ORA-01578: ORACLE data block corrupted (file # 5, block # 36) 
+ORA-01110: data file 5: '/u01/app/oracle/oradata/patrickcura/example01.dbf' 
+
+
+select * from hr.employees
+                 *
+ERROR at line 1:
+ORA-01578: ORACLE data block corrupted (file # 5, block # 84) 
+ORA-01110: data file 5: '/u01/app/oracle/oradata/patrickcura/example01.dbf' 
+
+

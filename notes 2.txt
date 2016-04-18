@@ -1,0 +1,40 @@
+page 51
+
+Granting Access to Database Control for Nonadministrative Users
+As a database administrator, you can log in to Oracle Enterprise Manager Database Control (Database Control) with the SYS or SYSTEM user account to perform administrative and other tasks. Nonadministrative users may also want to log in to Database Control. For example, application developers may want to take advantage of the Database Control interface to create or modify tables, indexes, views, and so on. You must grant access to Database Control to these users before they can log in.
+For nonadministrative users to have access to Database Control, they must be granted the SELECT_CATALOG_ROLE role. See "Example: Granting Privileges and Roles to a User Account" on page 7-13.
+
+
+Creating Database Control Administrative Users
+
+
+
+page 62 listener.ora 
+
+On the database host, the Oracle Net listener (the listener), is a process that listens for client connection requests. It receives incoming client connection requests and manages the traffic of these requests to the database server.
+The default listener configuration file is called listener.ora, and it is located in the network/admin subdirectory of the Oracle home directory. For example, if your Oracle home directory is /u01/app/oracle/product/11.2.0/dbhome_1, then the listener.ora file is created by default in the /u01/app/oracle/product/11.2.0/dbhome_1/network/admin directory.
+The file contains a protocol address that identifies the database. This address defines the protocol the listener is listening on and any other protocol-specific information. For example, the listener could be configured to listen at the following protocol address:
+(DESCRIPTION=
+(ADDRESS=(PROTOCOL=tcp)(HOST=dbhost.example.com) (PORT=1521)))
+This example shows a TCP/IP protocol address that specifies the host computer of the listener and a port number. The listener can listen for connection requests on network interfaces with either IP version 4 (IPv4) or IP version 6 (IPv6) addresses.
+The listener.ora file is automatically configured during installation, but you can reconfigure it with Oracle Enterprise Manager Database Control.
+Because the configuration parameters have default values, you can start and use a listener without configuring it. This default listener is named LISTENER, supports no service names on startup, and listens on the following TCP/IP protocol address:
+(ADDRESS=(PROTOCOL=tcp)(HOST=host_name)(PORT=1521))
+
+
+page 79
+
+To view or modify initialization parameters:
+1.At the top of the Database Home page, click Server to view the Server subpage.
+2.Under Database Configuration, click Initialization Parameters.
+Oracle Enterprise Manager Database Control (Database Control) displays the Initialization Parameters page.
+
+page 81
+
+About Memory Management
+Memory management involves maintaining optimal sizes for the Oracle instance memory structures as demands on the database change. The memory that must be managed is the System Global Area (SGA) memory and the instance Program Global Area (PGA) memory. The instance PGA memory is the collection of memory allocations for all individual PGAs.
+
+page 83
+
+Enabling Automatic Memory Management
+If you did not enable automatic memory management when you installed and configured your database, then Oracle recommends that you do so after installation, unless you are an experienced DBA with specific reasons to manually tune memory sizes. With automatic memory management, the Oracle instance dynamically tunes all memory components to optimize performance as the workload changes.

@@ -1,0 +1,13 @@
+configure controlfile autobackup on;
+sql 'alter system archive log current';
+sql 'alter system archive log current';
+sql 'alter system archive log current';
+backup database;
+sql 'alter system archive log current';
+sql 'alter system archive log current';
+sql 'alter system archive log current';
+backup archivelog all delete input;
+sql 'alter system archive log current';
+sql 'alter system archive log current';
+sql 'alter system archive log current';
+list backup summary;
