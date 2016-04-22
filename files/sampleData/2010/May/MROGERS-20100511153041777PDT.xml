@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>MROGERS-20100511153041777PDT</Reference>
+   <Actions>
+      <Action>
+         <User>RPERKINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Michael Rogers</Requestor>
+   <User>MROGERS</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Michael Rogers</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>179-477-2887</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="The Standard Deviants: Basic Math" UnitPrice="27.95">631865000227</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Train Ride to Hollywood" UnitPrice="19.95">13131094190</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Powerpuff Girls: Mane Event" UnitPrice="27.95">14764173023</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Woodstock '99" UnitPrice="19.95">74645020792</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Drive Me Crazy" UnitPrice="27.95">24543000334</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

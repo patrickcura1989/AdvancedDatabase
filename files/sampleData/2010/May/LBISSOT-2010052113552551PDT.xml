@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>LBISSOT-2010052113552551PDT</Reference>
+   <Actions>
+      <Action>
+         <User>ACABRIO</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Laura Bissot</Requestor>
+   <User>LBISSOT</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Laura Bissot</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>627-968-8588</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Proximity" UnitPrice="19.95">43396069787</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Sarah Plain &amp; Tall Trilogy" UnitPrice="27.95">707729102007</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Clerks" UnitPrice="27.95">717951002716</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Blue Steel &amp; Hell Town" UnitPrice="19.95">18713811080</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

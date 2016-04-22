@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>AERRAZUR-20100630221441985PDT</Reference>
+   <Actions>
+      <Action>
+         <User>MHARTSTE</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Alberto Errazuriz</Requestor>
+   <User>AERRAZUR</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Alberto Errazuriz</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>237-598-5658</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Classic TV: The Lucy Show" UnitPrice="19.95">56775013196</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Lethal Weapon 2" UnitPrice="19.95">85391629023</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Threesome" UnitPrice="19.95">43396058569</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Madigan" UnitPrice="19.95">25192052521</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

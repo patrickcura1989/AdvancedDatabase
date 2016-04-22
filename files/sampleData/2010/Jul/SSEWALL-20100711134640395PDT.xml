@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SSEWALL-20100711134640395PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SSEWALL</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Sarath Sewall</Requestor>
+   <User>SSEWALL</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Sarath Sewall</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>471-762-4460</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="The Man from Planet X" UnitPrice="19.95">27616858566</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Travel the World By Train: South America" UnitPrice="19.95">13023016491</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Titan A.E." UnitPrice="19.95">24543009245</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Standard Deviants: Geometry 1 / 2" UnitPrice="27.95">631865005826</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Best of Musikladen Live, Vol. 1" UnitPrice="19.95">13023010796</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,52 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JMURMAN-20100815165803931PDT</Reference>
+   <Actions>
+      <Action>
+         <User>LPOPP</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Jose Manuel Urman</Requestor>
+   <User>JMURMAN</User>
+   <CostCenter>A100</CostCenter>
+   <ShippingInstructions>
+      <name>Jose Manuel Urman</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>59-710-4335</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Days of Thunder" UnitPrice="19.95">97363212379</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Star Trek: The Motion Picture" UnitPrice="32.95">97360885842</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Things Change" UnitPrice="19.95">43396047532</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="The Two Jakes" UnitPrice="19.95">97360185447</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="NBA: Upsets and Underdogs" UnitPrice="19.95">696306009320</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="The Devil's Own" UnitPrice="19.95">43396824690</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Part Description="The Warriors" UnitPrice="19.95">97360112245</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>NSARCHAN-20101128171320348PST</Reference>
+   <Actions>
+      <Action>
+         <User>ACABRIO</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Nandita Sarchand</Requestor>
+   <User>NSARCHAN</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Nandita Sarchand</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>474-139-7939</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Counter to Counter</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Chato's Land" UnitPrice="19.95">27616865786</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Karaoke Favorite Standards Vol.3 303" UnitPrice="19.95">13023014794</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="White Sands" UnitPrice="19.95">85391253228</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

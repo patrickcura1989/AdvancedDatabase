@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>DGREENE-20100416195429628PDT</Reference>
+   <Actions>
+      <Action>
+         <User>ABANDA</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Danielle Greene</Requestor>
+   <User>DGREENE</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Danielle Greene</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>802-504-983</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Counter to Counter</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Once Upon a Time in China III" UnitPrice="19.95">43396056749</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Apt Pupil" UnitPrice="19.95">43396223097</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Star Trek: The Motion Picture" UnitPrice="32.95">97360885842</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Papillon" UnitPrice="19.95">12569083226</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Last of the Dogmen" UnitPrice="19.95">26359120220</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

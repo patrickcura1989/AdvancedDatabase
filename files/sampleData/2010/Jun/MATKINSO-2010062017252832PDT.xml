@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>MATKINSO-2010062017252832PDT</Reference>
+   <Actions>
+      <Action>
+         <User>ACABRIO</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Mozhe Atkinson</Requestor>
+   <User>MATKINSO</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Mozhe Atkinson</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>992-456-863</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="The Marilyn Monroe Story" UnitPrice="19.95">56775033194</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Stargate SG-1" UnitPrice="19.95">27616799722</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Jackie Chan: Fantasy / Master" UnitPrice="19.95">56775057893</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Sleepers" UnitPrice="19.95">85391448228</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="South Park 4-6" UnitPrice="19.95">85393681029</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="Billy Jack" UnitPrice="19.95">12569104020</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

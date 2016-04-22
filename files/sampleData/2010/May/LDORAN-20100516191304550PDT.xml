@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>LDORAN-20100516191304550PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SSEWALL</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Louise Doran</Requestor>
+   <User>LDORAN</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Louise Doran</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>114-283-71</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Dragon Ball Z: World Tournament- The Draw" UnitPrice="19.95">704400030482</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Parallel Dual: Student Housing" UnitPrice="19.95">13023039995</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Karaoke: 25 Song Karaoke Library 5" UnitPrice="19.95">13023006690</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="The Adventures of Baron Munchausen" UnitPrice="27.95">43396769892</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Masters of the Country Blues: Mance Lipscomb and Lightnin' Hopkins" UnitPrice="19.95">16351050298</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>RLADWIG-20101106221222888PST</Reference>
+   <Actions>
+      <Action>
+         <User>VJONES</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Renske Ladwig</Requestor>
+   <User>RLADWIG</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Renske Ladwig</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>823-485-1059</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="The Hot Spot" UnitPrice="19.95">27616817020</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Star Trek 30: Enterprise &amp; Children Shall" UnitPrice="19.95">97366003042</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Blue Hawaii" UnitPrice="19.95">97363714149</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="ECW: Barely Legal" UnitPrice="27.95">13023153691</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

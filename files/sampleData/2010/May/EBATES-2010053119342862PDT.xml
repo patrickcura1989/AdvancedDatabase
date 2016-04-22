@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>EBATES-2010053119342862PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SKUMAR</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Elizabeth Bates</Requestor>
+   <User>EBATES</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Elizabeth Bates</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>635-306-3956</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Next Day Air</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Father of the Bride 2" UnitPrice="19.95">717951005175</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="20th Century Music For Two Pianos" UnitPrice="19.95">13023052499</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Down from the Mountain" UnitPrice="27.95">12236123248</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Annie Hall" UnitPrice="19.95">27616655929</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>PKAUFLIN-20100828170347756PDT</Reference>
+   <Actions>
+      <Action>
+         <User>MHARTSTE</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Payam Kaufling</Requestor>
+   <User>PKAUFLIN</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Payam Kaufling</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>916-102-1870</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Dark Victory" UnitPrice="19.95">12569502925</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Doctor Who: The Five Doctors" UnitPrice="27.95">794051159625</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Look Who's Talking, Too" UnitPrice="19.95">43396054257</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Death Before Dishonor" UnitPrice="19.95">13131140798</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="DVD Spectacular" UnitPrice="19.95">13491700137</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

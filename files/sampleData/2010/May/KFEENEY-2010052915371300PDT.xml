@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>KFEENEY-2010052915371300PDT</Reference>
+   <Actions>
+      <Action>
+         <User>DGRANT</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Kevin Feeney</Requestor>
+   <User>KFEENEY</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Kevin Feeney</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>189-932-3278</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="One-Eyed Jacks" UnitPrice="19.95">56775005498</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Star Trek 23: Private Little / Gamesters" UnitPrice="19.95">97366002342</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="You've Got Mail" UnitPrice="19.95">85391695424</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

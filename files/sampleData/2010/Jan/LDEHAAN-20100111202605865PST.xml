@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>LDEHAAN-20100111202605865PST</Reference>
+   <Actions>
+      <Action>
+         <User>MHARTSTE</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Lex De Haan</Requestor>
+   <User>LDEHAAN</User>
+   <CostCenter>A90</CostCenter>
+   <ShippingInstructions>
+      <name>Lex De Haan</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>776-836-1507</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Getting Even with Dad" UnitPrice="19.95">27616859129</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="In the Mouth of Madness" UnitPrice="19.95">794043490729</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Partners In Crime" UnitPrice="19.95">12236109914</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

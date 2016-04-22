@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>DGRANT-20101215154018246PST</Reference>
+   <Actions>
+      <Action>
+         <User>DGRANT</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Douglas Grant</Requestor>
+   <User>DGRANT</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Douglas Grant</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>567-780-9281</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="The Madness of King George" UnitPrice="19.95">27616862808</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Fried Green Tomatoes" UnitPrice="19.95">25192024429</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Run D.M.C.: Greatest Hits" UnitPrice="19.95">78221642699</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Shirley Temple" UnitPrice="19.95">56775036690</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Dracula- Prince of Darkness" UnitPrice="19.95">13131050295</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

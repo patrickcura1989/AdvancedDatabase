@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>DBERNSTE-2010090120103012PDT</Reference>
+   <Actions>
+      <Action>
+         <User>OTUVAULT</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>David Bernstein</Requestor>
+   <User>DBERNSTE</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>David Bernstein</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>688-219-6000</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Next Day Air</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Crusade In Pacific" UnitPrice="27.95">56775059590</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Red Dawn" UnitPrice="19.95">27616699824</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Neia Under 7 3: Sayonara Blues" UnitPrice="27.95">13023159495</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Paradise Road" UnitPrice="19.95">24543012184</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Two if By Sea" UnitPrice="19.95">85391415923</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

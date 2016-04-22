@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SSTILES-20100514213427854PDT</Reference>
+   <Actions>
+      <Action>
+         <User>VJONES</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Stephen Stiles</Requestor>
+   <User>SSTILES</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Stephen Stiles</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>340-346-6612</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="The Dreamlife Of Angels" UnitPrice="19.95">43396040120</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Net" UnitPrice="19.95">43396116191</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Dead Again" UnitPrice="27.95">97363205746</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Wild America" UnitPrice="19.95">85391558026</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

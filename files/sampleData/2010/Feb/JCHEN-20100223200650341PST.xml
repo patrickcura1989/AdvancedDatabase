@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JCHEN-20100223200650341PST</Reference>
+   <Actions>
+      <Action>
+         <User>LPOPP</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>John Chen</Requestor>
+   <User>JCHEN</User>
+   <CostCenter>A100</CostCenter>
+   <ShippingInstructions>
+      <name>John Chen</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>578-717-1435</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Greatest NBA Finals Moments" UnitPrice="19.95">696306008521</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="I Spy: Little Boy Lost" UnitPrice="19.95">14381983524</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Dragon Ball Z: Androids- Dr Gero" UnitPrice="0.0">704400030055</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

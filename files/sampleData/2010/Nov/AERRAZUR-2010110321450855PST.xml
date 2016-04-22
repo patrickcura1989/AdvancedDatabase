@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>AERRAZUR-2010110321450855PST</Reference>
+   <Actions>
+      <Action>
+         <User>MHARTSTE</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Alberto Errazuriz</Requestor>
+   <User>AERRAZUR</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Alberto Errazuriz</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>593-850-4019</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Fear City" UnitPrice="27.95">13131145090</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Truman Show" UnitPrice="19.95">97363311270</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="My Best Friend's Wedding &amp; Steel" UnitPrice="32.95">43396057753</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>VPATABAL-20100919180441197PDT</Reference>
+   <Actions>
+      <Action>
+         <User>DLORENTZ</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Valli Pataballa</Requestor>
+   <User>VPATABAL</User>
+   <CostCenter>A60</CostCenter>
+   <ShippingInstructions>
+      <name>Valli Pataballa</name>
+      <address>2014 Jabberwocky Rd,
+Southlake,
+Texas 26192
+United States of America</address>
+      <telephone>523-656-5950</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Bounce" UnitPrice="19.95">786936144765</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Pokemon: So Near, Yet So Farfetch'd" UnitPrice="19.95">13023019195</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Lone Ranger" UnitPrice="27.95">18713830210</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Romeo and Juliet" UnitPrice="19.95">97360680942</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Beethoven's 4th" UnitPrice="27.95">25192126628</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

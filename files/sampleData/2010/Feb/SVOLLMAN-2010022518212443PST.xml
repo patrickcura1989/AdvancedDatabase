@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SVOLLMAN-2010022518212443PST</Reference>
+   <Actions>
+      <Action>
+         <User>MHARTSTE</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Shanta Vollman</Requestor>
+   <User>SVOLLMAN</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Shanta Vollman</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>790-631-4929</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Adventures Of The Old West" UnitPrice="19.95">56775038991</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Code of Silence" UnitPrice="19.95">27616854766</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Luther Vandross: Live at Wembley" UnitPrice="19.95">74644902396</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

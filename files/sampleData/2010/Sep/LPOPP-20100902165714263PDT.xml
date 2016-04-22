@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>LPOPP-20100902165714263PDT</Reference>
+   <Actions>
+      <Action>
+         <User>LPOPP</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Luis Popp</Requestor>
+   <User>LPOPP</User>
+   <CostCenter>A100</CostCenter>
+   <ShippingInstructions>
+      <name>Luis Popp</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>945-568-1276</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Counter to Counter</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Beethoven's 2nd" UnitPrice="19.95">25192027024</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Voyage of the Damned" UnitPrice="19.95">13023034693</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Last Man Standing" UnitPrice="19.95">794043450723</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Good Day To Die" UnitPrice="19.95">31398704836</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

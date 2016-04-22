@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JFLEAUR-20100718134407165PDT</Reference>
+   <Actions>
+      <Action>
+         <User>GGEONI</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Jean Fleaur</Requestor>
+   <User>JFLEAUR</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Jean Fleaur</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>593-535-7796</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Nazca: Betrayal of Humanity" UnitPrice="19.95">13023026094</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="White Squall" UnitPrice="19.95">717951002402</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Space 1999 4" UnitPrice="27.95">733961702422</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="A Bucket of Blood" UnitPrice="19.95">27616852847</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

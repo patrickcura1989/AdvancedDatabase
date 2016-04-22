@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>DLEE-2010052113471398PDT</Reference>
+   <Actions>
+      <Action>
+         <User>ABANDA</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>David Lee</Requestor>
+   <User>DLEE</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>David Lee</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>915-362-90</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Ghost in the Shell" UnitPrice="19.95">780063552929</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Great Events Of Our Century: Legacy / Into Unknown" UnitPrice="19.95">56775042196</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="I Spy: Philotimo" UnitPrice="19.95">14381983722</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Bossa Nova" UnitPrice="19.95">43396063655</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="2 Days in the Valley" UnitPrice="19.95">26359130328</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="Trigun: Angel Arms" UnitPrice="19.95">13023028791</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

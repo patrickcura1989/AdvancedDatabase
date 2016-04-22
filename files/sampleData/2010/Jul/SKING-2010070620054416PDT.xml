@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SKING-2010070620054416PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SKING</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Steven King</Requestor>
+   <User>SKING</User>
+   <CostCenter>A90</CostCenter>
+   <ShippingInstructions>
+      <name>Steven King</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>494-873-2941</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Jaws 2" UnitPrice="19.95">25192092824</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="James and the Giant Peach" UnitPrice="19.95">717951009388</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Pokemon: The Water Flowers of Cerulean City" UnitPrice="19.95">13023012295</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Uprising" UnitPrice="32.95">85392189120</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

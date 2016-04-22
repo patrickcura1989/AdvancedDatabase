@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>ABULL-20100830210357739PDT</Reference>
+   <Actions>
+      <Action>
+         <User>ACABRIO</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Alexis Bull</Requestor>
+   <User>ABULL</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Alexis Bull</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>352-465-5043</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Next Day Air</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Junior" UnitPrice="19.95">25192033827</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Valdez Is Coming" UnitPrice="19.95">27616865830</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Company Man" UnitPrice="27.95">97363379744</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Storefront Hitchcock" UnitPrice="19.95">27616802323</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>DLEE-20100213184112193PST</Reference>
+   <Actions>
+      <Action>
+         <User>ABANDA</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>David Lee</Requestor>
+   <User>DLEE</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>David Lee</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>90-553-1577</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="The Pope of Greenwich Village" UnitPrice="19.95">27616861009</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="X-Men: Sanctuary 1 &amp; 2 &amp; Proteus 1 &amp; 2 &amp; / Animat" UnitPrice="19.95">25192136726</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Official 2000 NBA Championship: Los Angeles Lakers" UnitPrice="19.95">696306008927</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="The Littlest Horse Thieves" UnitPrice="19.95">13131083095</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

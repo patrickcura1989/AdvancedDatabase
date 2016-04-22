@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>HPHILTAN-20100122224234219PST</Reference>
+   <Actions>
+      <Action>
+         <User>RPERKINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Hazel Philtanker</Requestor>
+   <User>HPHILTAN</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Hazel Philtanker</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>817-324-566</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="If These Walls Could Talk 2" UnitPrice="19.95">26359170720</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="White Squall" UnitPrice="19.95">717951002402</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="El Hazard: The Alternative World- The Ruler Of The Universe" UnitPrice="19.95">13023025691</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="The Good, the Bad and the Ugly" UnitPrice="19.95">27616672926</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Liberty Heights" UnitPrice="19.95">85391801924</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

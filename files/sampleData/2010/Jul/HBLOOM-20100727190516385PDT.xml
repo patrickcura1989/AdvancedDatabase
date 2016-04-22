@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>HBLOOM-20100727190516385PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SKUMAR</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Harrison Bloom</Requestor>
+   <User>HBLOOM</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Harrison Bloom</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>85-928-4067</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Suspect" UnitPrice="19.95">43396058576</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Apocalypse Now" UnitPrice="19.95">97360230642</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Dick" UnitPrice="19.95">43396040014</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Trigun: Project Seeds" UnitPrice="19.95">13023028890</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

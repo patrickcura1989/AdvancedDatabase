@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>TGATES-20101009124511225PDT</Reference>
+   <Actions>
+      <Action>
+         <User>RPERKINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Timothy Gates</Requestor>
+   <User>TGATES</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Timothy Gates</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>670-89-4592</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Sanctimony" UnitPrice="27.95">13023153196</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Monster" UnitPrice="19.95">43396043220</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Fly / Fly 2" UnitPrice="19.95">24543004578</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="The Dunwich Horror" UnitPrice="19.95">27616865571</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>KCOLMENA-20100914143017610PDT</Reference>
+   <Actions>
+      <Action>
+         <User>KCOLMENA</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Karen Colmenares</Requestor>
+   <User>KCOLMENA</User>
+   <CostCenter>A30</CostCenter>
+   <ShippingInstructions>
+      <name>Karen Colmenares</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>219-985-5214</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Thelonious Monk: Straight, No Chaser" UnitPrice="19.95">85391189626</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Cookie's Fortune" UnitPrice="19.95">44004499323</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Turbulence" UnitPrice="19.95">26359138720</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Seunlau Ngaklau" UnitPrice="19.95">43396066434</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

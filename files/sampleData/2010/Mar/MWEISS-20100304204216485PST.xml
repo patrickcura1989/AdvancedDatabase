@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>MWEISS-20100304204216485PST</Reference>
+   <Actions>
+      <Action>
+         <User>MHARTSTE</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Matthew Weiss</Requestor>
+   <User>MWEISS</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Matthew Weiss</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>672-837-3521</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Avengers: 66 Set 2 Volume 1" UnitPrice="19.95">733961700381</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Son-In-Law" UnitPrice="19.95">717951003263</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Space 1999 3" UnitPrice="27.95">733961702392</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Barbra Streisand: Timeless- Live In Concert" UnitPrice="19.95">74645402093</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

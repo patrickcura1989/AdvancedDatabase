@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JSEO-20100120172652183PST</Reference>
+   <Actions>
+      <Action>
+         <User>VJONES</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>John Seo</Requestor>
+   <User>JSEO</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>John Seo</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>588-252-6039</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Trigun: Angel Arms" UnitPrice="19.95">13023028791</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Stroker Ace" UnitPrice="19.95">85391132226</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Hollywood Knights" UnitPrice="19.95">43396218949</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="A Bright Shining Lie" UnitPrice="19.95">26359122026</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Catherine the Great" UnitPrice="27.95">733961701548</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

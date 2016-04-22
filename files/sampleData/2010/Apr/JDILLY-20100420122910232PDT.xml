@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JDILLY-20100420122910232PDT</Reference>
+   <Actions>
+      <Action>
+         <User>RPERKINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Jennifer Dilly</Requestor>
+   <User>JDILLY</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Jennifer Dilly</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>998-71-1658</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="A Home of Our Own" UnitPrice="19.95">27616861160</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Chamber" UnitPrice="19.95">25192026829</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Pecker" UnitPrice="19.95">794043473128</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="My Life" UnitPrice="19.95">43396058538</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="I Spy: Vendetta" UnitPrice="19.95">14381983326</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="The Far Pavilions" UnitPrice="29.95">54961427499</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

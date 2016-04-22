@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>ABANDA-20100129183452590PST</Reference>
+   <Actions>
+      <Action>
+         <User>ABANDA</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Amit Banda</Requestor>
+   <User>ABANDA</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Amit Banda</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>818-813-1465</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Counter to Counter</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Adventures of the Old West: Frontier Justice- The Law and the Lawless" UnitPrice="19.95">56775039394</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Karaoke: Classic Rock Vol.1 501" UnitPrice="19.95">13023002197</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Brenda Starr" UnitPrice="19.95">13131092790</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Horatio Hornblower: The Adventure Continues" UnitPrice="27.95">733961701999</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

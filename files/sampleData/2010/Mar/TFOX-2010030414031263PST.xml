@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>TFOX-2010030414031263PST</Reference>
+   <Actions>
+      <Action>
+         <User>SKUMAR</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Tayler Fox</Requestor>
+   <User>TFOX</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Tayler Fox</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>28-901-1516</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="The Tic Code" UnitPrice="27.95">25192110528</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="G.I. Jane" UnitPrice="19.95">717951000316</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="McLintock!" UnitPrice="19.95">18713810038</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>RLADWIG-2010081020004277PDT</Reference>
+   <Actions>
+      <Action>
+         <User>VJONES</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Renske Ladwig</Requestor>
+   <User>RLADWIG</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Renske Ladwig</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>703-473-8243</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Felicia's Journey" UnitPrice="19.95">12236101345</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Black And White" UnitPrice="19.95">43396052888</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Mississippi Mermaid" UnitPrice="19.95">27616858016</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

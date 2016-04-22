@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>TFOX-20101007184624432PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SKUMAR</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Tayler Fox</Requestor>
+   <User>TFOX</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Tayler Fox</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>41-280-9780</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Laura Ingalls Wilder" UnitPrice="19.95">18713811370</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Doctor Dolittle" UnitPrice="19.95">24543004943</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Woman on Top" UnitPrice="19.95">24543014881</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Science Fiction" UnitPrice="27.95">56775031992</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

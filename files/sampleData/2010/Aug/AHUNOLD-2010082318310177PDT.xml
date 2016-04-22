@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>AHUNOLD-2010082318310177PDT</Reference>
+   <Actions>
+      <Action>
+         <User>AHUNOLD</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Alexander Hunold</Requestor>
+   <User>AHUNOLD</User>
+   <CostCenter>A60</CostCenter>
+   <ShippingInstructions>
+      <name>Alexander Hunold</name>
+      <address>2014 Jabberwocky Rd,
+Southlake,
+Texas 26192
+United States of America</address>
+      <telephone>294-700-5104</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="What Women Want" UnitPrice="27.95">97363383840</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="When Trumpets Fade" UnitPrice="19.95">26359148026</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Bachelor" UnitPrice="19.95">794043499425</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Bye Bye Birdie" UnitPrice="19.95">43396015098</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>PTUCKER-2010052213084536PDT</Reference>
+   <Actions>
+      <Action>
+         <User>OTUVAULT</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Peter Tucker</Requestor>
+   <User>PTUCKER</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Peter Tucker</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>934-928-480</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Titanic" UnitPrice="27.95">97361552279</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Fear and Loathing in Las Vegas" UnitPrice="19.95">25192033926</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Invaders from Mars" UnitPrice="19.95">27616865588</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

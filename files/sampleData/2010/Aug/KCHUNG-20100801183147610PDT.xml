@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>KCHUNG-20100801183147610PDT</Reference>
+   <Actions>
+      <Action>
+         <User>RPERKINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Kelly Chung</Requestor>
+   <User>KCHUNG</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Kelly Chung</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>884-84-3470</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Stephen King's Golden Years" UnitPrice="19.95">17153119589</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Birds" UnitPrice="19.95">25192027529</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Inside TRL: Total Request Live" UnitPrice="19.95">74645538198</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

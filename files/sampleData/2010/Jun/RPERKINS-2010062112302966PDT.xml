@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>RPERKINS-2010062112302966PDT</Reference>
+   <Actions>
+      <Action>
+         <User>RPERKINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Randall Perkins</Requestor>
+   <User>RPERKINS</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Randall Perkins</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>309-935-9947</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Another 48 Hrs." UnitPrice="19.95">97363238676</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="A Hole in the Head" UnitPrice="19.95">27616865892</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Crocodile Dundee in Los Angeles" UnitPrice="19.95">97363393245</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Bear In The Big Blue House: Party Time With Bear" UnitPrice="19.95">43396047266</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Crosby, Stills &amp; Nash: Daylight Again" UnitPrice="27.95">4895033701057</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

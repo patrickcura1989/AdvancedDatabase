@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JMALLIN-20100823125200657PDT</Reference>
+   <Actions>
+      <Action>
+         <User>RPERKINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Jason Mallin</Requestor>
+   <User>JMALLIN</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Jason Mallin</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>634-155-5968</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Expidite</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Best of Friends Vols. 3&amp;4" UnitPrice="32.95">85392193721</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Carmen (Bizet / Carreras / Baltsa / Metropolian Opera Orch" UnitPrice="19.95">44007300091</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Warlock III: The End Of Innocence" UnitPrice="19.95">31398720331</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

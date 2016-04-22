@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SANDE-2010092617501123PDT</Reference>
+   <Actions>
+      <Action>
+         <User>ABANDA</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Sundar Ande</Requestor>
+   <User>SANDE</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Sundar Ande</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>295-855-2406</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Platinum Pop Collection 1" UnitPrice="19.95">15095232120</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Local Hero" UnitPrice="19.95">85391130727</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Buena Vista Social Club" UnitPrice="19.95">12236101765</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

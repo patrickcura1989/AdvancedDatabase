@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JPATEL-20100326143336623PST</Reference>
+   <Actions>
+      <Action>
+         <User>VJONES</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Joshua Patel</Requestor>
+   <User>JPATEL</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Joshua Patel</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>79-988-5919</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Ride With the Devil" UnitPrice="19.95">25192077425</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Play It Again, Sam" UnitPrice="27.95">97360811247</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Celebration: Music Of Pete Townshend &amp; The Who (Roger Daltrey" UnitPrice="19.95">15095230126</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Requiem for a Dream" UnitPrice="19.95">12236115670</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Eurythmics: Peacetour" UnitPrice="19.95">78221574990</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>NCAMBRAU-20100510224850180PDT</Reference>
+   <Actions>
+      <Action>
+         <User>OTUVAULT</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Nanette Cambrault</Requestor>
+   <User>NCAMBRAU</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Nanette Cambrault</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>690-370-1665</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Flypaper" UnitPrice="19.95">31398736523</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Single White Female" UnitPrice="19.95">43396514393</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Running Man" UnitPrice="19.95">17153584127</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Sgt. Bilko" UnitPrice="19.95">25192027925</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

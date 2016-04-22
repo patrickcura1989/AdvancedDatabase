@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>AKHOO-20100324193824229PST</Reference>
+   <Actions>
+      <Action>
+         <User>KCOLMENA</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Alexander Khoo</Requestor>
+   <User>AKHOO</User>
+   <CostCenter>A30</CostCenter>
+   <ShippingInstructions>
+      <name>Alexander Khoo</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>310-339-63</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Simpsons: Season 1" UnitPrice="19.95">24543009009</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="DVD Music Breakthrough" UnitPrice="19.95">13491700236</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Children of the Corn V: Fields of Terror" UnitPrice="27.95">786936160307</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

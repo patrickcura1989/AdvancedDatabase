@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>MMARVINS-20100410185636675PDT</Reference>
+   <Actions>
+      <Action>
+         <User>ABANDA</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Mattea Marvins</Requestor>
+   <User>MMARVINS</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Mattea Marvins</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>842-704-2786</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Tombstone" UnitPrice="19.95">717951000064</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Adjuster" UnitPrice="19.95">27616860323</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Battle Athletes Victory: Spaceward Ho" UnitPrice="19.95">13023020290</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Stevie Ray Vaughan &amp; Double Trouble: Live at the El Mocambo 1983" UnitPrice="19.95">74644911190</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

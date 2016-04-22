@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>GCAMBRAU-20100809153905287PDT</Reference>
+   <Actions>
+      <Action>
+         <User>MHARTSTE</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Gerald Cambrault</Requestor>
+   <User>GCAMBRAU</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Gerald Cambrault</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>156-338-1291</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Courier</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Fire Down Below" UnitPrice="19.95">85391491422</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Titanic: Mystery &amp; Legacy" UnitPrice="19.95">56775007591</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Sleepers" UnitPrice="19.95">85391448228</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Jazz Scene USA: Phineas Newborn and Jimmy Smith" UnitPrice="19.95">16351631398</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

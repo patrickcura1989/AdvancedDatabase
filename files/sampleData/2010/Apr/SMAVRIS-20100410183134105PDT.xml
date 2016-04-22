@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SMAVRIS-20100410183134105PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SHIGGINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Susan Mavris</Requestor>
+   <User>SMAVRIS</User>
+   <CostCenter>A40</CostCenter>
+   <ShippingInstructions>
+      <name>Susan Mavris</name>
+      <address>8204 Arthur St,
+London,
+null null
+United Kingdom</address>
+      <telephone>182-702-5028</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Expidite</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Secret Agent Aka Danger Man" UnitPrice="32.95">733961703177</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Meteor" UnitPrice="19.95">27616837424</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="He Got Game" UnitPrice="19.95">717951000750</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Christopher Cross: An Evening with Christopher Cross" UnitPrice="27.95">60768830493</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Beautiful Creatures" UnitPrice="27.95">25192126222</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

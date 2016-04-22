@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>KFEENEY-20100126133858532PST</Reference>
+   <Actions>
+      <Action>
+         <User>DGRANT</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Kevin Feeney</Requestor>
+   <User>KFEENEY</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Kevin Feeney</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>428-748-8293</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Theatre of Blood" UnitPrice="19.95">27616865663</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="I Spy 7" UnitPrice="19.95">14381983029</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Shirley Temple, Vol. 2: The Biggest Lil' Star in Hollywood" UnitPrice="19.95">56775033491</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Men of War" UnitPrice="27.95">786936141757</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Top Guns: Volume 2- Bombers" UnitPrice="19.95">56775037796</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

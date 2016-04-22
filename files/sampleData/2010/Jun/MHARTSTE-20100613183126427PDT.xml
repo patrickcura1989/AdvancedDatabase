@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>MHARTSTE-20100613183126427PDT</Reference>
+   <Actions>
+      <Action>
+         <User>MHARTSTE</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Michael Hartstein</Requestor>
+   <User>MHARTSTE</User>
+   <CostCenter>A20</CostCenter>
+   <ShippingInstructions>
+      <name>Michael Hartstein</name>
+      <address>147 Spadina Ave,
+Toronto,
+Ontario M5V 2L7
+Canada</address>
+      <telephone>114-9-9877</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="The Long Riders" UnitPrice="19.95">27616859037</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Cats and Dogs" UnitPrice="27.95">85392229321</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Lynyrd Skynyrd: Lyve from Steel Town" UnitPrice="27.95">60768830691</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Mystic Moods" UnitPrice="27.95">56775064297</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Shadow of Doubt" UnitPrice="19.95">43396058439</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

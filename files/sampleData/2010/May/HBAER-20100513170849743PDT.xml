@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>HBAER-20100513170849743PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SHIGGINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Hermann Baer</Requestor>
+   <User>HBAER</User>
+   <CostCenter>A70</CostCenter>
+   <ShippingInstructions>
+      <name>Hermann Baer</name>
+      <address>Schwanthalerstr. 7031,
+Munich,
+Bavaria 80925
+Germany</address>
+      <telephone>508-34-8308</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="The Bible- In the -- beginning" UnitPrice="27.95">24543020790</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Kenny Loggins Alive" UnitPrice="19.95">13023003798</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Take Me out to the Ball Game" UnitPrice="19.95">12569511927</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

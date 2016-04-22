@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>KFEENEY-20100108122135396PST</Reference>
+   <Actions>
+      <Action>
+         <User>DGRANT</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Kevin Feeney</Requestor>
+   <User>KFEENEY</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Kevin Feeney</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>459-221-7589</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Bonanza: Blood Line" UnitPrice="19.95">56775014193</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Tycus" UnitPrice="19.95">97368397743</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Pale Rider" UnitPrice="19.95">85391147527</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Gunmen" UnitPrice="27.95">12236120520</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Indigo Girls: Live at the Fillmore Denver, November 20, 1999" UnitPrice="19.95">74645022598</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

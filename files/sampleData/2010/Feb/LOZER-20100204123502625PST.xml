@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>LOZER-20100204123502625PST</Reference>
+   <Actions>
+      <Action>
+         <User>SKUMAR</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Lisa Ozer</Requestor>
+   <User>LOZER</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Lisa Ozer</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>525-809-5702</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Monty Python's Flying Circus: Set 5" UnitPrice="27.95">733961700824</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Alice In Wonderland" UnitPrice="27.95">707729102106</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Dragon Ball Z: Androids- Invincible / Japanimatio" UnitPrice="19.95">704400301094</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Mandela" UnitPrice="19.95">44004669528</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

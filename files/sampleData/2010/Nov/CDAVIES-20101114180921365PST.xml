@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>CDAVIES-20101114180921365PST</Reference>
+   <Actions>
+      <Action>
+         <User>DGRANT</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Curtis Davies</Requestor>
+   <User>CDAVIES</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Curtis Davies</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>493-502-840</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Mystery, Alaska" UnitPrice="19.95">717951004772</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Basic Instinct" UnitPrice="19.95">12236044307</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Nightwatch" UnitPrice="19.95">717951000743</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Heaven's Burning" UnitPrice="19.95">31398751922</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="In the Line of Fire" UnitPrice="19.95">43396523173</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

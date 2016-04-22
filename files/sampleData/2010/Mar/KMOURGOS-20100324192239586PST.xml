@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>KMOURGOS-20100324192239586PST</Reference>
+   <Actions>
+      <Action>
+         <User>MHARTSTE</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Kevin Mourgos</Requestor>
+   <User>KMOURGOS</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Kevin Mourgos</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>326-775-6607</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Courier</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Keeping the Faith" UnitPrice="27.95">717951010582</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Adventures of Ichabod and Mr. Toad" UnitPrice="19.95">717951008466</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Prelude To War &amp; Nazi Strike: Why We Fight" UnitPrice="19.95">18713811103</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="A Lesson Before Dying" UnitPrice="19.95">26359157028</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Secret Agent Aka Danger Man" UnitPrice="32.95">733961703177</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SMARKLE-20100901184435973PDT</Reference>
+   <Actions>
+      <Action>
+         <User>GGEONI</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Steven Markle</Requestor>
+   <User>SMARKLE</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Steven Markle</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>890-654-1465</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="I Spy: Little Boy Lost" UnitPrice="19.95">14381983524</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Hang 'em High" UnitPrice="19.95">27616673022</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Proposal" UnitPrice="19.95">786936145052</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

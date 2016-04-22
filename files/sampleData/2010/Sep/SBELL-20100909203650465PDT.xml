@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SBELL-20100909203650465PDT</Reference>
+   <Actions>
+      <Action>
+         <User>VJONES</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Sarah Bell</Requestor>
+   <User>SBELL</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Sarah Bell</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>670-919-3634</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="The Psychedelic Furs: Live from the House of Blues" UnitPrice="27.95">13023161191</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Lost Weekend" UnitPrice="19.95">25192115325</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Cabaret" UnitPrice="19.95">12569078529</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Heavy Metal" UnitPrice="19.95">43396039292</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Corrupter &amp; Mr Nice Guy" UnitPrice="32.95">794043542428</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="Enemy of the State" UnitPrice="19.95">717951001634</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

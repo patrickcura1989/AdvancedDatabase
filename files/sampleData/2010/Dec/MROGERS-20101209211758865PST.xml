@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>MROGERS-20101209211758865PST</Reference>
+   <Actions>
+      <Action>
+         <User>RPERKINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Michael Rogers</Requestor>
+   <User>MROGERS</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Michael Rogers</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>830-856-15</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Zero Effect" UnitPrice="27.95">53939253429</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Stir Of Echoes &amp; Ninth Gate" UnitPrice="32.95">12236122968</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Sol Bianca: The Legacy- Going Home" UnitPrice="19.95">13023034099</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Friends &amp; Lovers" UnitPrice="19.95">25192065224</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Gulda: Mozart Concertos" UnitPrice="19.95">13023027992</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

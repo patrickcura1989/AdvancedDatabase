@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JKING-20100509221135602PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SSEWALL</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Janette King</Requestor>
+   <User>JKING</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Janette King</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>153-899-8987</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Dogma: Special Edition" UnitPrice="19.95">43396056145</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Hand Maid May, Vol. 2: Product Recall" UnitPrice="27.95">13023159198</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Losin' It" UnitPrice="19.95">27616858672</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Beowulf" UnitPrice="27.95">717951010650</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

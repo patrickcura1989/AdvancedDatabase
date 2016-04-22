@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>TJOLSON-20100223205346813PST</Reference>
+   <Actions>
+      <Action>
+         <User>ACABRIO</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>TJ Olson</Requestor>
+   <User>TJOLSON</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>TJ Olson</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>963-626-577</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Arabella (Metropolitan Opera" UnitPrice="19.95">44007300596</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Cobra" UnitPrice="19.95">85391159421</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Where the Buffalo Roam" UnitPrice="19.95">13131094398</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="ECW: Hardcore History" UnitPrice="27.95">13023157293</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

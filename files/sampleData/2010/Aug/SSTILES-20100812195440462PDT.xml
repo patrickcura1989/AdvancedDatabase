@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SSTILES-20100812195440462PDT</Reference>
+   <Actions>
+      <Action>
+         <User>VJONES</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Stephen Stiles</Requestor>
+   <User>SSTILES</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Stephen Stiles</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>226-2-8185</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Expidite</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Overboard" UnitPrice="19.95">27616656629</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Sharpe's Honour" UnitPrice="19.95">66805916045</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Dakota" UnitPrice="19.95">13131137996</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

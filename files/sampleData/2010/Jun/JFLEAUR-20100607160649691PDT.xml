@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JFLEAUR-20100607160649691PDT</Reference>
+   <Actions>
+      <Action>
+         <User>GGEONI</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Jean Fleaur</Requestor>
+   <User>JFLEAUR</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Jean Fleaur</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>741-99-1455</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="A Better Way to Die" UnitPrice="19.95">43396059801</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Summer of Sam" UnitPrice="19.95">717951004734</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Georgia" UnitPrice="19.95">717951003362</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Space 1999 2" UnitPrice="27.95">733961701517</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

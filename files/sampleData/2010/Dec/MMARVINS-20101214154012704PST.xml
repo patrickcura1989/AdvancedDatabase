@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>MMARVINS-20101214154012704PST</Reference>
+   <Actions>
+      <Action>
+         <User>ABANDA</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Mattea Marvins</Requestor>
+   <User>MMARVINS</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Mattea Marvins</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>732-283-2373</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Expidite</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Avengers: 67 Set 4 Volume 1" UnitPrice="19.95">733961700244</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Right Temptation" UnitPrice="19.95">43396059818</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Star Trek 20: Mirror Mirror / Deadly Years" UnitPrice="19.95">97366002045</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

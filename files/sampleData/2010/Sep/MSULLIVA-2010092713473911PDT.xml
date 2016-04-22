@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>MSULLIVA-2010092713473911PDT</Reference>
+   <Actions>
+      <Action>
+         <User>GGEONI</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Martha Sullivan</Requestor>
+   <User>MSULLIVA</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Martha Sullivan</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>732-78-83</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Stargate" UnitPrice="27.95">12236604921</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Karaoke: R&amp;B Hits Vol.4 104" UnitPrice="19.95">13023007895</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Groundhog Day" UnitPrice="19.95">43396522992</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="The Battle of Russia" UnitPrice="19.95">18713811127</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Scream 2" UnitPrice="19.95">717951000484</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="Barbarella" UnitPrice="19.95">97360681277</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

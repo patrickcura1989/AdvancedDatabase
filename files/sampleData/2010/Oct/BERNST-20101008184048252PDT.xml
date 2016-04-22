@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>BERNST-20101008184048252PDT</Reference>
+   <Actions>
+      <Action>
+         <User>DLORENTZ</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Bruce Ernst</Requestor>
+   <User>BERNST</User>
+   <CostCenter>A60</CostCenter>
+   <ShippingInstructions>
+      <name>Bruce Ernst</name>
+      <address>2014 Jabberwocky Rd,
+Southlake,
+Texas 26192
+United States of America</address>
+      <telephone>141-76-1479</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Sleepless In Seattle &amp; Hanging Up" UnitPrice="19.95">43396053977</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Kitaro: Light of the Spirit" UnitPrice="19.95">13023034990</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Great Expectations" UnitPrice="27.95">24543000051</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JDELLING-20100429210334294PDT</Reference>
+   <Actions>
+      <Action>
+         <User>ACABRIO</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Julia Dellinger</Requestor>
+   <User>JDELLING</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Julia Dellinger</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>285-966-6167</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Persuasion" UnitPrice="19.95">43396039520</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Karaoke: Classic Country Favorites Vol. 6 206" UnitPrice="19.95">13023007994</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Englishman Who Went up a Hill But Came Down A Mountain" UnitPrice="19.95">717951003287</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Lord is My Shepherd" UnitPrice="19.95">18713811356</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="The Adventures of Rocky and Bullwinkle" UnitPrice="19.95">25192092725</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

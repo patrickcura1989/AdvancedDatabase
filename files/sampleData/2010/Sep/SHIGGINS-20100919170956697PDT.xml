@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SHIGGINS-20100919170956697PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SHIGGINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Shelley Higgins</Requestor>
+   <User>SHIGGINS</User>
+   <CostCenter>A110</CostCenter>
+   <ShippingInstructions>
+      <name>Shelley Higgins</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>11-602-6811</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Herbert Von Karajan: New Years Concert 1984" UnitPrice="19.95">74644598391</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Pokemon- The Johto Journeys: For Crying Out Loud!" UnitPrice="27.95">13023155893</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Bittersweet" UnitPrice="19.95">13023031692</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Legend Of Black Heaven: Space Truckin / Japanimat" UnitPrice="19.95">13023050297</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SHIGGINS-20100209162522290PST</Reference>
+   <Actions>
+      <Action>
+         <User>SHIGGINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Shelley Higgins</Requestor>
+   <User>SHIGGINS</User>
+   <CostCenter>A110</CostCenter>
+   <ShippingInstructions>
+      <name>Shelley Higgins</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>85-931-5098</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Discworld: Wyrd Sisters" UnitPrice="29.95">54961837496</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Dazed and Confused" UnitPrice="19.95">25192027727</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Karaoke: 25 Song Karaoke Library 8" UnitPrice="19.95">13023006997</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Riverdance &amp; Miserables: Live Nyc / Musical" UnitPrice="32.95">43396073289</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

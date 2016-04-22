@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JMURMAN-20100103182558510PST</Reference>
+   <Actions>
+      <Action>
+         <User>LPOPP</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Jose Manuel Urman</Requestor>
+   <User>JMURMAN</User>
+   <CostCenter>A100</CostCenter>
+   <ShippingInstructions>
+      <name>Jose Manuel Urman</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>507-511-5652</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Expidite</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Lulu On The Bridge" UnitPrice="19.95">31398718833</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Chicken Run" UnitPrice="26.95">667068645323</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Murder at 1600" UnitPrice="19.95">85391491521</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Chain Reaction" UnitPrice="19.95">24543014355</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Murder in the First" UnitPrice="19.95">85391389521</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="The Lost Boys" UnitPrice="19.95">85391174820</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JWHALEN-20101205214446115PST</Reference>
+   <Actions>
+      <Action>
+         <User>SHIGGINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Jennifer Whalen</Requestor>
+   <User>JWHALEN</User>
+   <CostCenter>A10</CostCenter>
+   <ShippingInstructions>
+      <name>Jennifer Whalen</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>751-451-3033</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Casualties of War" UnitPrice="27.95">43396062924</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Getting Even with Dad" UnitPrice="19.95">27616859129</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Avengers: 67 Set 3 Volume 1" UnitPrice="19.95">733961700220</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Elvis: '68 Comeback Special" UnitPrice="19.95">85365408821</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Manhattan Baby" UnitPrice="27.95">13131184297</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="Netforce" UnitPrice="19.95">31398708735</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

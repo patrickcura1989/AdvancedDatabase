@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>IMIKKILI-20100619133042611PDT</Reference>
+   <Actions>
+      <Action>
+         <User>GGEONI</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Irene Mikkilineni</Requestor>
+   <User>IMIKKILI</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Irene Mikkilineni</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>572-378-9669</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Simpatico" UnitPrice="19.95">794043504327</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Eternal" UnitPrice="19.95">31398706533</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Isn't She Great" UnitPrice="19.95">25192070822</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Gallipoli" UnitPrice="19.95">97360150476</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

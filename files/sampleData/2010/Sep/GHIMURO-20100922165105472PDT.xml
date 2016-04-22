@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>GHIMURO-20100922165105472PDT</Reference>
+   <Actions>
+      <Action>
+         <User>KCOLMENA</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Guy Himuro</Requestor>
+   <User>GHIMURO</User>
+   <CostCenter>A30</CostCenter>
+   <ShippingInstructions>
+      <name>Guy Himuro</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>999-534-8794</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Counter to Counter</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="No Way Out" UnitPrice="19.95">27616843623</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Army of Darkness" UnitPrice="19.95">25192032226</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="A Blade in the Dark" UnitPrice="27.95">13131184198</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Wicked" UnitPrice="19.95">43396069947</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Being There" UnitPrice="19.95">12569093829</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="Superman III" UnitPrice="19.95">85391132028</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

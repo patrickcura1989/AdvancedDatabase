@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JMURMAN-20100922120842875PDT</Reference>
+   <Actions>
+      <Action>
+         <User>LPOPP</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Jose Manuel Urman</Requestor>
+   <User>JMURMAN</User>
+   <CostCenter>A100</CostCenter>
+   <ShippingInstructions>
+      <name>Jose Manuel Urman</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>74-788-3807</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Courier</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Ronin" UnitPrice="19.95">27616743923</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Blue Lagoon" UnitPrice="19.95">43396013797</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Jingle All the Way" UnitPrice="19.95">86162090660</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="The Last Detail" UnitPrice="19.95">43396003491</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Founding Fathers: Men Who Shaped" UnitPrice="27.95">733961710038</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

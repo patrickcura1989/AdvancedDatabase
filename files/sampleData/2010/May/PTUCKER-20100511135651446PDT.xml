@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>PTUCKER-20100511135651446PDT</Reference>
+   <Actions>
+      <Action>
+         <User>OTUVAULT</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Peter Tucker</Requestor>
+   <User>PTUCKER</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Peter Tucker</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>589-921-244</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Wings Of Swiss Air Force" UnitPrice="19.95">13023024892</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Up in Smoke" UnitPrice="27.95">97360896640</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="NASA 25 Years of Triumph and Tragedy Volume 1" UnitPrice="19.95">56775000899</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="The Lady from Shanghai" UnitPrice="19.95">43396048591</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Eddie and the Cruisers" UnitPrice="19.95">27616865694</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="Interceptor" UnitPrice="19.95">31398688334</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SSEWALL-2010061715275722PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SSEWALL</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Sarath Sewall</Requestor>
+   <User>SSEWALL</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Sarath Sewall</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>217-206-4291</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Expidite</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Just the Ticket" UnitPrice="19.95">27616745323</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Purple Rain &amp; 187" UnitPrice="32.95">85392217526</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Lain: Knights" UnitPrice="19.95">13023022690</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Superstar" UnitPrice="27.95">97363371243</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="High Fidelity" UnitPrice="19.95">717951009944</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="Enter the Dragon" UnitPrice="19.95">85391592129</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>MHARTSTE-20101203160739601PST</Reference>
+   <Actions>
+      <Action>
+         <User>MHARTSTE</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Michael Hartstein</Requestor>
+   <User>MHARTSTE</User>
+   <CostCenter>A20</CostCenter>
+   <ShippingInstructions>
+      <name>Michael Hartstein</name>
+      <address>147 Spadina Ave,
+Toronto,
+Ontario M5V 2L7
+Canada</address>
+      <telephone>121-356-4177</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Twilight Zone 5" UnitPrice="19.95">14381898521</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Why Dogs Smile and Chimpanzees Cry" UnitPrice="19.95">12236109587</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Kikujiro" UnitPrice="19.95">43396052796</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Hang 'em High" UnitPrice="19.95">27616673022</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>AHUTTON-2010010717531503PST</Reference>
+   <Actions>
+      <Action>
+         <User>CJOHNSON</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Alyssa Hutton</Requestor>
+   <User>AHUTTON</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Alyssa Hutton</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>31-56-7778</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Eye of the Beholder" UnitPrice="19.95">43396050525</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Karaoke: Beatles Hits, Vol. 2" UnitPrice="19.95">13023030992</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Loving Jezebel" UnitPrice="27.95">25192125621</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="G3: Live in Concert" UnitPrice="19.95">74645015798</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

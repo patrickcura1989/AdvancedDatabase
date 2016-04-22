@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>CJOHNSON-20101025161310421PDT</Reference>
+   <Actions>
+      <Action>
+         <User>CJOHNSON</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Charles Johnson</Requestor>
+   <User>CJOHNSON</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Charles Johnson</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>534-359-6031</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="I Saw What You Did" UnitPrice="19.95">13131086799</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Children of the Corn V: Fields of Terror" UnitPrice="27.95">786936160307</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="I Spy: Lotus Eater" UnitPrice="19.95">14381983821</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Night Shift" UnitPrice="19.95">85392000623</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Show Boat" UnitPrice="19.95">12569509429</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

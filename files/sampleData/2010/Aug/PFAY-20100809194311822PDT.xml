@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>PFAY-20100809194311822PDT</Reference>
+   <Actions>
+      <Action>
+         <User>PFAY</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Pat Fay</Requestor>
+   <User>PFAY</User>
+   <CostCenter>A20</CostCenter>
+   <ShippingInstructions>
+      <name>Pat Fay</name>
+      <address>147 Spadina Ave,
+Toronto,
+Ontario M5V 2L7
+Canada</address>
+      <telephone>331-388-9901</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Rat Pack: True Stories Of Original" UnitPrice="27.95">733961703016</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Karaoke: R&amp;B Hits Vol.3 103" UnitPrice="19.95">13023006294</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Mummy" UnitPrice="27.95">25192125829</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Predator" UnitPrice="19.95">24543010852</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="A Walk in the Sun" UnitPrice="19.95">56775006594</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="The Mighty Ducks" UnitPrice="19.95">717951004307</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

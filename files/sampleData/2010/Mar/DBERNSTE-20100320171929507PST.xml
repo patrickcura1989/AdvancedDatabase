@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>DBERNSTE-20100320171929507PST</Reference>
+   <Actions>
+      <Action>
+         <User>OTUVAULT</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>David Bernstein</Requestor>
+   <User>DBERNSTE</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>David Bernstein</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>838-686-2255</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Papillon" UnitPrice="19.95">12569083226</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Von Ryan's Express" UnitPrice="27.95">24543030034</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Things to Do in Denver When You're Dead" UnitPrice="19.95">717951002082</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

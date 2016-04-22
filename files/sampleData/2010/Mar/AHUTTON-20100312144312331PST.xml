@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>AHUTTON-20100312144312331PST</Reference>
+   <Actions>
+      <Action>
+         <User>CJOHNSON</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Alyssa Hutton</Requestor>
+   <User>AHUTTON</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Alyssa Hutton</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>139-580-6942</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Felix the Cat" UnitPrice="19.95">74645406497</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="I Spy: Tag, You're It" UnitPrice="19.95">14381983920</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="My Girl" UnitPrice="19.95">43396509993</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

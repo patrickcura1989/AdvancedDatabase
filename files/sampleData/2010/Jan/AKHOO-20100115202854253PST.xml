@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>AKHOO-20100115202854253PST</Reference>
+   <Actions>
+      <Action>
+         <User>KCOLMENA</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Alexander Khoo</Requestor>
+   <User>AKHOO</User>
+   <CostCenter>A30</CostCenter>
+   <ShippingInstructions>
+      <name>Alexander Khoo</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>935-250-514</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Air Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Niea Under 7, Vol. 1: Poor Girl Blues" UnitPrice="27.95">13023156098</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Lone Ranger" UnitPrice="27.95">56775071899</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Bear In Big Blue House 4" UnitPrice="27.95">43396073036</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Children of the Corn 666: Isaac's Return" UnitPrice="19.95">717951004284</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="The Caine Mutiny" UnitPrice="19.95">43396796492</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JLIVINGS-2010070816312464PDT</Reference>
+   <Actions>
+      <Action>
+         <User>CJOHNSON</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Jack Livingston</Requestor>
+   <User>JLIVINGS</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Jack Livingston</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>152-603-4261</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Brokedown Palace" UnitPrice="27.95">24543000037</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Evil Dead" UnitPrice="19.95">13131066791</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Postman Always Rings Twice" UnitPrice="19.95">12569067325</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Peggy Sue Got Married" UnitPrice="19.95">43396818491</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Mississippi Mermaid" UnitPrice="19.95">27616858016</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

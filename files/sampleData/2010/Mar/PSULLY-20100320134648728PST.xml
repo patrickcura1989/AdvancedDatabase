@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>PSULLY-20100320134648728PST</Reference>
+   <Actions>
+      <Action>
+         <User>SSEWALL</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Patrick Sully</Requestor>
+   <User>PSULLY</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Patrick Sully</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>597-627-1739</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Allosaurus: A Walking with Dinosaurs Special" UnitPrice="27.95">794051155221</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Stoned Age" UnitPrice="19.95">31398714637</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Hunchback of Notre Dame" UnitPrice="19.95">66479101686</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Jaws 2" UnitPrice="19.95">25192092824</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="The Unsinkable Molly Brown" UnitPrice="19.95">12569520127</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

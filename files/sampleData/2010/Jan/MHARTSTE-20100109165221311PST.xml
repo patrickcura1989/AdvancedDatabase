@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>MHARTSTE-20100109165221311PST</Reference>
+   <Actions>
+      <Action>
+         <User>MHARTSTE</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Michael Hartstein</Requestor>
+   <User>MHARTSTE</User>
+   <CostCenter>A20</CostCenter>
+   <ShippingInstructions>
+      <name>Michael Hartstein</name>
+      <address>147 Spadina Ave,
+Toronto,
+Ontario M5V 2L7
+Canada</address>
+      <telephone>204-104-8484</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Morgan!" UnitPrice="27.95">13131146196</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Van Halen: Live Right Here, Right Now" UnitPrice="19.95">75993829020</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Red Dwarf" UnitPrice="19.95">43396047310</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="A Life Less Ordinary" UnitPrice="19.95">86162123016</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="If These Walls Could Talk 2" UnitPrice="19.95">26359170720</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>PFAY-20101101190037376PST</Reference>
+   <Actions>
+      <Action>
+         <User>PFAY</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Pat Fay</Requestor>
+   <User>PFAY</User>
+   <CostCenter>A20</CostCenter>
+   <ShippingInstructions>
+      <name>Pat Fay</name>
+      <address>147 Spadina Ave,
+Toronto,
+Ontario M5V 2L7
+Canada</address>
+      <telephone>472-991-8940</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Music of the Heart" UnitPrice="19.95">717951004956</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Poirot: Hercule Poirot`s Christmas" UnitPrice="14.95">54961471195</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The French Connection" UnitPrice="27.95">24543020653</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Titan A.E." UnitPrice="19.95">24543009245</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Lost Films of Laurel &amp; Hardy 8" UnitPrice="19.95">14381479829</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

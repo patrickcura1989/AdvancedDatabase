@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>BERNST-20101202181004595PST</Reference>
+   <Actions>
+      <Action>
+         <User>DLORENTZ</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Bruce Ernst</Requestor>
+   <User>BERNST</User>
+   <CostCenter>A60</CostCenter>
+   <ShippingInstructions>
+      <name>Bruce Ernst</name>
+      <address>2014 Jabberwocky Rd,
+Southlake,
+Texas 26192
+United States of America</address>
+      <telephone>413-343-7302</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="The 13th Warrior" UnitPrice="19.95">717951004659</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Firm" UnitPrice="19.95">97363252344</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Bruce Lee: Dragon Story" UnitPrice="19.95">18713811059</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

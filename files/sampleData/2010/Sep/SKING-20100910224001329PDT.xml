@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SKING-20100910224001329PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SKING</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Steven King</Requestor>
+   <User>SKING</User>
+   <CostCenter>A90</CostCenter>
+   <ShippingInstructions>
+      <name>Steven King</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>81-95-3716</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Body Shots" UnitPrice="19.95">794043498220</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Shadow of the Vampire" UnitPrice="27.95">25192126826</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Another Woman" UnitPrice="19.95">27616854629</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Gold" UnitPrice="32.95">733961703696</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

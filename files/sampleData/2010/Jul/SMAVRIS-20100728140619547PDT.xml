@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SMAVRIS-20100728140619547PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SHIGGINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Susan Mavris</Requestor>
+   <User>SMAVRIS</User>
+   <CostCenter>A40</CostCenter>
+   <ShippingInstructions>
+      <name>Susan Mavris</name>
+      <address>8204 Arthur St,
+London,
+null null
+United Kingdom</address>
+      <telephone>162-716-9532</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Wild Things" UnitPrice="19.95">43396024113</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Star Trek 20: Mirror Mirror / Deadly Years" UnitPrice="19.95">97366002045</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Will Smith: Video Compilation" UnitPrice="19.95">74645020693</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Extreme Bloopers: Sports Gone Wrong" UnitPrice="19.95">56775054199</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Tokyo Raiders" UnitPrice="19.95">43396056770</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="A View to a Kill" UnitPrice="19.95">27616853967</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

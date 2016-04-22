@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JTAYLOR-20101202142628684PST</Reference>
+   <Actions>
+      <Action>
+         <User>CJOHNSON</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Jonathon Taylor</Requestor>
+   <User>JTAYLOR</User>
+   <CostCenter>A80</CostCenter>
+   <ShippingInstructions>
+      <name>Jonathon Taylor</name>
+      <address>Magdalen Centre, The Oxford Science Park,
+Oxford,
+Oxford OX9 9ZB
+United Kingdom</address>
+      <telephone>564-544-5116</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="I Spy: Blackout" UnitPrice="19.95">14381983425</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Longitude" UnitPrice="27.95">733961701234</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Bicentennial Man" UnitPrice="19.95">717951004888</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Key the Metal Idol, Vol. 3: Believing" UnitPrice="19.95">13023043596</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Leaving Las Vegas" UnitPrice="19.95">27616699725</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

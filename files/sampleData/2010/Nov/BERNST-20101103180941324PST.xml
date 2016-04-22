@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>BERNST-20101103180941324PST</Reference>
+   <Actions>
+      <Action>
+         <User>DLORENTZ</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Bruce Ernst</Requestor>
+   <User>BERNST</User>
+   <CostCenter>A60</CostCenter>
+   <ShippingInstructions>
+      <name>Bruce Ernst</name>
+      <address>2014 Jabberwocky Rd,
+Southlake,
+Texas 26192
+United States of America</address>
+      <telephone>350-374-3023</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Jungle Fever" UnitPrice="19.95">25192042829</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Napoleon and Samantha" UnitPrice="19.95">13131089394</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="National Lampoon's Class Reunion" UnitPrice="19.95">13131106091</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Idle Hands" UnitPrice="19.95">43396039315</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Live and Let Die" UnitPrice="19.95">27616702623</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

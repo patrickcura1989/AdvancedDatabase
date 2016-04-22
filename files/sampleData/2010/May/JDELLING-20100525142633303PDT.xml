@@ -1,0 +1,52 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>JDELLING-20100525142633303PDT</Reference>
+   <Actions>
+      <Action>
+         <User>ACABRIO</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Julia Dellinger</Requestor>
+   <User>JDELLING</User>
+   <CostCenter>A50</CostCenter>
+   <ShippingInstructions>
+      <name>Julia Dellinger</name>
+      <address>2011 Interiors Blvd,
+South San Francisco,
+California 99236
+United States of America</address>
+      <telephone>985-789-7295</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Frank Sinatra: Ol' Blue Eyes Is Back" UnitPrice="19.95">75993820324</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Hand Maid May: Maid to Order- Am I Any Use at All?" UnitPrice="27.95">13023155695</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Home Alone" UnitPrice="19.95">86162001598</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="The Peacemaker" UnitPrice="26.95">667068467420</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="The Birdcage" UnitPrice="19.95">27616603395</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="Jack and the Beanstalk" UnitPrice="27.95">56775032890</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Part Description="The Crying Game" UnitPrice="19.95">12236046301</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>KCOLMENA-20100712130139686PDT</Reference>
+   <Actions>
+      <Action>
+         <User>KCOLMENA</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Karen Colmenares</Requestor>
+   <User>KCOLMENA</User>
+   <CostCenter>A30</CostCenter>
+   <ShippingInstructions>
+      <name>Karen Colmenares</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>381-124-4490</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Counter to Counter</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Assassins" UnitPrice="19.95">85391398721</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Poirot: The Mysterious Affair at Styles" UnitPrice="14.95">54961437191</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Devil and Max Devlin" UnitPrice="19.95">13131118193</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Black Moon Rising" UnitPrice="19.95">13131141092</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

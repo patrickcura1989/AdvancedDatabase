@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>PFAY-20100824161215884PDT</Reference>
+   <Actions>
+      <Action>
+         <User>PFAY</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Pat Fay</Requestor>
+   <User>PFAY</User>
+   <CostCenter>A20</CostCenter>
+   <ShippingInstructions>
+      <name>Pat Fay</name>
+      <address>147 Spadina Ave,
+Toronto,
+Ontario M5V 2L7
+Canada</address>
+      <telephone>13-504-7756</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Expidite</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Starman" UnitPrice="19.95">43396041295</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Tea With Mussolini" UnitPrice="19.95">27616791825</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="World's Most: Amazing Animal Rescues" UnitPrice="19.95">56775053093</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Simon Sez" UnitPrice="19.95">43396043855</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

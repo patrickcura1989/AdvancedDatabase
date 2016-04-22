@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>BERNST-2010092617420761PDT</Reference>
+   <Actions>
+      <Action>
+         <User>DLORENTZ</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Bruce Ernst</Requestor>
+   <User>BERNST</User>
+   <CostCenter>A60</CostCenter>
+   <ShippingInstructions>
+      <name>Bruce Ernst</name>
+      <address>2014 Jabberwocky Rd,
+Southlake,
+Texas 26192
+United States of America</address>
+      <telephone>395-174-7974</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Pokemon- The Johto Journeys: For Crying Out Loud!" UnitPrice="27.95">13023155893</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="One Eight Seven" UnitPrice="19.95">85391543220</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Love and Death" UnitPrice="19.95">27616850140</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Night Shift" UnitPrice="19.95">85392000623</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

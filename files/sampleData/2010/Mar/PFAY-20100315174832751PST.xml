@@ -1,0 +1,36 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>PFAY-20100315174832751PST</Reference>
+   <Actions>
+      <Action>
+         <User>PFAY</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Pat Fay</Requestor>
+   <User>PFAY</User>
+   <CostCenter>A20</CostCenter>
+   <ShippingInstructions>
+      <name>Pat Fay</name>
+      <address>147 Spadina Ave,
+Toronto,
+Ontario M5V 2L7
+Canada</address>
+      <telephone>368-658-6542</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Next Day Air</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Poirot: One, Two, Buckle My Shoe" UnitPrice="19.95">54961843893</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Annie" UnitPrice="19.95">43396052864</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Highlander: Endgame" UnitPrice="19.95">786936144833</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SKING-20100617205045142PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SKING</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Steven King</Requestor>
+   <User>SKING</User>
+   <CostCenter>A90</CostCenter>
+   <ShippingInstructions>
+      <name>Steven King</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>709-712-7931</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="They Came For Good: A History of the Jews in the United States- Present at the Creation, 1654-1820" UnitPrice="19.95">16351098498</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Brenda Starr" UnitPrice="19.95">13131092790</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Meet Joe Black" UnitPrice="27.95">25192127625</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Crossfire Trail" UnitPrice="19.95">53939662221</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

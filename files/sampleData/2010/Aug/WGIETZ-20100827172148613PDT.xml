@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>WGIETZ-20100827172148613PDT</Reference>
+   <Actions>
+      <Action>
+         <User>WGIETZ</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>William Gietz</Requestor>
+   <User>WGIETZ</User>
+   <CostCenter>A110</CostCenter>
+   <ShippingInstructions>
+      <name>William Gietz</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>393-176-9708</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="NASA" UnitPrice="19.95">56775035693</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Beastie Boys: Sabotage" UnitPrice="19.95">13023000292</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Bear In The Big Blue House: Party Time With Bear" UnitPrice="19.95">43396047266</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Prince: The Hits Collection" UnitPrice="19.95">75993837124</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Seamless" UnitPrice="19.95">12236115618</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

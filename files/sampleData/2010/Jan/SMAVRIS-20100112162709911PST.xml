@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SMAVRIS-20100112162709911PST</Reference>
+   <Actions>
+      <Action>
+         <User>SHIGGINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Susan Mavris</Requestor>
+   <User>SMAVRIS</User>
+   <CostCenter>A40</CostCenter>
+   <ShippingInstructions>
+      <name>Susan Mavris</name>
+      <address>8204 Arthur St,
+London,
+null null
+United Kingdom</address>
+      <telephone>349-949-9344</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Expidite</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Under Siege" UnitPrice="19.95">85391242024</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The House on Haunted Hill" UnitPrice="19.95">85391801825</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Pirates of Penzance" UnitPrice="29.95">54961348091</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Natural Born Killers" UnitPrice="19.95">85391853527</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

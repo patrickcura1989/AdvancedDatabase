@@ -1,0 +1,52 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>DFAVIET-20100406130438402PDT</Reference>
+   <Actions>
+      <Action>
+         <User>LPOPP</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Daniel Faviet</Requestor>
+   <User>DFAVIET</User>
+   <CostCenter>A100</CostCenter>
+   <ShippingInstructions>
+      <name>Daniel Faviet</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>376-134-7393</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Counter to Counter</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Screwed" UnitPrice="19.95">25192093029</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Who Framed Roger Rabbit?" UnitPrice="19.95">717951004192</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Gothic" UnitPrice="19.95">13023036192</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="The Rugrats Movie" UnitPrice="19.95">97363339977</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Miracle Maker &amp; In The -- beginning" UnitPrice="32.95">12236123057</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="Friends &amp; Lovers" UnitPrice="19.95">25192065224</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="7">
+         <Part Description="The Big Easy" UnitPrice="19.95">31398700234</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

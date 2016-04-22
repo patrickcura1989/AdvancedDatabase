@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>PFAY-20100823133006977PDT</Reference>
+   <Actions>
+      <Action>
+         <User>PFAY</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Pat Fay</Requestor>
+   <User>PFAY</User>
+   <CostCenter>A20</CostCenter>
+   <ShippingInstructions>
+      <name>Pat Fay</name>
+      <address>147 Spadina Ave,
+Toronto,
+Ontario M5V 2L7
+Canada</address>
+      <telephone>859-98-9994</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Expidite</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="True Romance" UnitPrice="19.95">85391315827</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Lust in the Dust" UnitPrice="19.95">13131131697</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Leprechaun 2" UnitPrice="19.95">31398691839</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Killer Instincts: Anaconda- Giant Snake of the Amazon" UnitPrice="19.95">56775035198</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

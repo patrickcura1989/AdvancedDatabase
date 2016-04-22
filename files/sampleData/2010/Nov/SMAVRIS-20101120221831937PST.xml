@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SMAVRIS-20101120221831937PST</Reference>
+   <Actions>
+      <Action>
+         <User>SHIGGINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Susan Mavris</Requestor>
+   <User>SMAVRIS</User>
+   <CostCenter>A40</CostCenter>
+   <ShippingInstructions>
+      <name>Susan Mavris</name>
+      <address>8204 Arthur St,
+London,
+null null
+United Kingdom</address>
+      <telephone>438-46-5515</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Expidite</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Men of Honor" UnitPrice="19.95">24543016656</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="QB VII" UnitPrice="19.95">43396058507</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Two Family House" UnitPrice="27.95">25192126123</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Otis Redding: Remembering Otis" UnitPrice="19.95">13023004894</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Pearl Harbor : Dawn Of Death" UnitPrice="19.95">66805300998</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>HBAER-20100506212256641PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SHIGGINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Hermann Baer</Requestor>
+   <User>HBAER</User>
+   <CostCenter>A70</CostCenter>
+   <ShippingInstructions>
+      <name>Hermann Baer</name>
+      <address>Schwanthalerstr. 7031,
+Munich,
+Bavaria 80925
+Germany</address>
+      <telephone>478-867-2955</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Counter to Counter</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Dolores Claiborne" UnitPrice="19.95">53939254822</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Women on the Verge of a Nervous Breakdown" UnitPrice="19.95">27616860439</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Rio Grande" UnitPrice="19.95">17153345629</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="North by Northwest" UnitPrice="19.95">12569501621</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

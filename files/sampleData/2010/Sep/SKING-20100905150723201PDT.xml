@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SKING-20100905150723201PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SKING</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Steven King</Requestor>
+   <User>SKING</User>
+   <CostCenter>A90</CostCenter>
+   <ShippingInstructions>
+      <name>Steven King</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>119-585-8122</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Pokemon: Bulbasaur and the Hidden Village" UnitPrice="19.95">13023012394</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Matinee Idol / Frank Capra's American Dream" UnitPrice="19.95">43396033030</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Witches" UnitPrice="19.95">13131068993</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Around the World In 80 Days" UnitPrice="19.95">14381480320</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="La semana del asesino" UnitPrice="19.95">13131111491</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="Bananas" UnitPrice="19.95">27616850171</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

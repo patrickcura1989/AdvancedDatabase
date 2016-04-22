@@ -1,0 +1,41 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>KGRANT-20100124133816507PST</Reference>
+   <Actions>
+      <Action>
+         <User>CJOHNSON</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Kimberely Grant</Requestor>
+   <User>KGRANT</User>
+   <CostCenter>A0</CostCenter>
+   <ShippingInstructions>
+      <name>Kimberely Grant</name>
+      <address/>
+      <telephone>753-270-5345</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Counter to Counter</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Just Visiting" UnitPrice="27.95">786936162141</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Otis Redding: Remembering Otis" UnitPrice="19.95">13023004894</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Extreme Adventures of Super Dave" UnitPrice="19.95">27616837028</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="American Flyers" UnitPrice="19.95">85391152026</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Shadowlands" UnitPrice="19.95">26359096822</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

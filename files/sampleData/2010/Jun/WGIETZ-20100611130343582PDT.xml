@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>WGIETZ-20100611130343582PDT</Reference>
+   <Actions>
+      <Action>
+         <User>WGIETZ</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>William Gietz</Requestor>
+   <User>WGIETZ</User>
+   <CostCenter>A110</CostCenter>
+   <ShippingInstructions>
+      <name>William Gietz</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>660-444-5818</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Dragonheart: A New -- beginning" UnitPrice="19.95">25192067921</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Man in the Iron Mask" UnitPrice="19.95">66479101709</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Backyard Dogs" UnitPrice="27.95">12236122500</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Family Of Cops" UnitPrice="19.95">31398705031</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>HBAER-20100729185105698PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SHIGGINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Hermann Baer</Requestor>
+   <User>HBAER</User>
+   <CostCenter>A70</CostCenter>
+   <ShippingInstructions>
+      <name>Hermann Baer</name>
+      <address>Schwanthalerstr. 7031,
+Munich,
+Bavaria 80925
+Germany</address>
+      <telephone>320-441-200</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Bounce" UnitPrice="19.95">786936144765</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Gummo" UnitPrice="27.95">794043523625</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="South Park: Winter Wonderland" UnitPrice="27.95">85393742324</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Grand Canyon" UnitPrice="19.95">24543012481</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="The Color of Paradise" UnitPrice="19.95">43396056060</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

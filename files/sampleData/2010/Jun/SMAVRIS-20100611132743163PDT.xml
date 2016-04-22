@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SMAVRIS-20100611132743163PDT</Reference>
+   <Actions>
+      <Action>
+         <User>SHIGGINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Susan Mavris</Requestor>
+   <User>SMAVRIS</User>
+   <CostCenter>A40</CostCenter>
+   <ShippingInstructions>
+      <name>Susan Mavris</name>
+      <address>8204 Arthur St,
+London,
+null null
+United Kingdom</address>
+      <telephone>594-776-4222</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Gorillas in the Mist" UnitPrice="19.95">25192042126</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Raising Arizona" UnitPrice="19.95">86162123023</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Bruce Springsteen: Video Anthology: 1978-88" UnitPrice="19.95">74644901092</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="I Spy: This Guy Smith" UnitPrice="19.95">14381984026</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Mr. Deeds Goes to Town" UnitPrice="19.95">43396894396</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="Flypaper" UnitPrice="19.95">31398736523</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

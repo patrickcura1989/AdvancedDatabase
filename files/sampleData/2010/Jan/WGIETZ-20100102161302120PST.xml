@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>WGIETZ-20100102161302120PST</Reference>
+   <Actions>
+      <Action>
+         <User>WGIETZ</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>William Gietz</Requestor>
+   <User>WGIETZ</User>
+   <CostCenter>A110</CostCenter>
+   <ShippingInstructions>
+      <name>William Gietz</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>213-303-9557</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>COD</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Our Gang Stories" UnitPrice="19.95">18713810946</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Event Horizon" UnitPrice="19.95">97363348276</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Big" UnitPrice="19.95">86162126086</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Eyes of Laura Mars" UnitPrice="19.95">43396028470</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

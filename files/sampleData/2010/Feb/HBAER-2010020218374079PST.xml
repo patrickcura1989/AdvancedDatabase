@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>HBAER-2010020218374079PST</Reference>
+   <Actions>
+      <Action>
+         <User>SHIGGINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Hermann Baer</Requestor>
+   <User>HBAER</User>
+   <CostCenter>A70</CostCenter>
+   <ShippingInstructions>
+      <name>Hermann Baer</name>
+      <address>Schwanthalerstr. 7031,
+Munich,
+Bavaria 80925
+Germany</address>
+      <telephone>855-213-5212</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Ground</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="The Wings of the Dove" UnitPrice="19.95">717951002389</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Hell up in Harlem" UnitPrice="19.95">27616867841</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Awakenings" UnitPrice="19.95">43396505698</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="MTV Unplugged: Finest Moments, Vol. 1" UnitPrice="19.95">74645527895</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Salem's Lot" UnitPrice="19.95">85391271727</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

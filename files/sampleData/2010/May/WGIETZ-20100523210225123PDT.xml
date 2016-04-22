@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>WGIETZ-20100523210225123PDT</Reference>
+   <Actions>
+      <Action>
+         <User>WGIETZ</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>William Gietz</Requestor>
+   <User>WGIETZ</User>
+   <CostCenter>A110</CostCenter>
+   <ShippingInstructions>
+      <name>William Gietz</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>195-992-7658</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Herbie Mann: Jasil Brass" UnitPrice="19.95">13023034495</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Incident at Oglala" UnitPrice="19.95">13023015098</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="The Lawless Frontier" UnitPrice="19.95">56775002398</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Twiztid: Born Twiztid- The Movie" UnitPrice="19.95">44006082394</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="The Chieftains: Long Black Veil" UnitPrice="19.95">90266819294</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="Travel the World By Train: North America" UnitPrice="19.95">13023016293</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

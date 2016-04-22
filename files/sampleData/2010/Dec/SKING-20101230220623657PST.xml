@@ -1,0 +1,48 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>SKING-20101230220623657PST</Reference>
+   <Actions>
+      <Action>
+         <User>SKING</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Steven King</Requestor>
+   <User>SKING</User>
+   <CostCenter>A90</CostCenter>
+   <ShippingInstructions>
+      <name>Steven King</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>231-681-8560</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Hand Carry</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Der Rosenkavalier" UnitPrice="19.95">44007300893</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Loving Jezebel" UnitPrice="27.95">25192125621</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Asas De Portugal: Rolling In the Sky" UnitPrice="19.95">13023016897</Part>
+         <Quantity>5.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Dragon Ball Z: World Tournament- The Draw" UnitPrice="19.95">704400030482</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Dangerous Minds" UnitPrice="19.95">717951001924</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="6">
+         <Part Description="The Story of Us" UnitPrice="19.95">25192071126</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

@@ -1,0 +1,40 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>HBAER-20101228180003955PST</Reference>
+   <Actions>
+      <Action>
+         <User>SHIGGINS</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Hermann Baer</Requestor>
+   <User>HBAER</User>
+   <CostCenter>A70</CostCenter>
+   <ShippingInstructions>
+      <name>Hermann Baer</name>
+      <address>Schwanthalerstr. 7031,
+Munich,
+Bavaria 80925
+Germany</address>
+      <telephone>169-151-7362</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Counter to Counter</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Karaoke: 25 Song Karaoke Library 8" UnitPrice="19.95">13023006997</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Spy Hard" UnitPrice="19.95">717951002419</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Beowulf" UnitPrice="27.95">717951010650</Part>
+         <Quantity>1.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Eddie and the Cruisers" UnitPrice="19.95">27616865694</Part>
+         <Quantity>3.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

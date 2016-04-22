@@ -1,0 +1,44 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>WGIETZ-2010061217385079PDT</Reference>
+   <Actions>
+      <Action>
+         <User>WGIETZ</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>William Gietz</Requestor>
+   <User>WGIETZ</User>
+   <CostCenter>A110</CostCenter>
+   <ShippingInstructions>
+      <name>William Gietz</name>
+      <address>2004 Charade Rd,
+Seattle,
+Washington 98199
+United States of America</address>
+      <telephone>106-603-3649</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Priority Overnight</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="42nd Grammy Awards" UnitPrice="19.95">74645023694</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Richard Strauss" UnitPrice="27.95">13023157897</Part>
+         <Quantity>9.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Treasure Island" UnitPrice="19.95">66479101846</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Horowitz: The Last Romantic" UnitPrice="19.95">13023053496</Part>
+         <Quantity>8.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="5">
+         <Part Description="Patrouille Suisse" UnitPrice="19.95">13023031593</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

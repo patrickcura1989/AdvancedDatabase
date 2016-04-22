@@ -1,0 +1,37 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>KGRANT-20100905130258543PDT</Reference>
+   <Actions>
+      <Action>
+         <User>CJOHNSON</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Kimberely Grant</Requestor>
+   <User>KGRANT</User>
+   <CostCenter>A0</CostCenter>
+   <ShippingInstructions>
+      <name>Kimberely Grant</name>
+      <address/>
+      <telephone>749-487-211</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Courier</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="To Sir, with Love" UnitPrice="19.95">43396032965</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="The Falcon and the Snowman" UnitPrice="19.95">27616779229</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Tell Me No Lies" UnitPrice="19.95">12236118084</Part>
+         <Quantity>7.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="4">
+         <Part Description="Me, You, Them" UnitPrice="19.95">43396063877</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

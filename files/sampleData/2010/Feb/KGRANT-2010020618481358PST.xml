@@ -1,0 +1,33 @@
+<PurchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd">
+   <Reference>KGRANT-2010020618481358PST</Reference>
+   <Actions>
+      <Action>
+         <User>CJOHNSON</User>
+      </Action>
+   </Actions>
+   <Rejection/>
+   <Requestor>Kimberely Grant</Requestor>
+   <User>KGRANT</User>
+   <CostCenter>A0</CostCenter>
+   <ShippingInstructions>
+      <name>Kimberely Grant</name>
+      <address/>
+      <telephone>560-634-3882</telephone>
+   </ShippingInstructions>
+   <SpecialInstructions>Surface Mail</SpecialInstructions>
+   <LineItems>
+      <LineItem ItemNumber="1">
+         <Part Description="Twilight Zone 34" UnitPrice="19.95">14381895124</Part>
+         <Quantity>6.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="2">
+         <Part Description="Our Gand Great Hits" UnitPrice="19.95">18713810953</Part>
+         <Quantity>4.0</Quantity>
+      </LineItem>
+      <LineItem ItemNumber="3">
+         <Part Description="Children of the Corn 666: Isaac's Return" UnitPrice="19.95">717951004284</Part>
+         <Quantity>2.0</Quantity>
+      </LineItem>
+   </LineItems>
+</PurchaseOrder>
+

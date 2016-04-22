@@ -1,0 +1,53 @@
+
+SQL*Loader: Release 11.2.0.3.0 - Production on Fri Aug 31 21:17:55 2012
+
+Copyright (c) 1982, 2011, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   ../sampleData/2010.ctl
+Data File:      ../sampleData/2010.dat
+  Bad File:     ../sampleData/2010.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Continuation:    none specified
+Path used:      Direct
+
+Table DATA_STAGING_HOL, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+FILENAME                            FIRST   120           CHARACTER            
+  (FILLER FIELD)
+XMLDATA                           DERIVED     *  EOF      CHARACTER            
+    Dynamic LOBFILE.  Filename in field FILENAME
+
+The following index(es) on table DATA_STAGING_HOL were processed:
+index OE.SYS_C0012981 loaded successfully with 10000 keys
+
+Table DATA_STAGING_HOL:
+  10000 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+Bind array size not used in direct path.
+Column array  rows :       1
+Stream buffer bytes:  256000
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:         10000
+Total logical records rejected:         0
+Total logical records discarded:        0
+Direct path multithreading optimization is disabled
+
+Run began on Fri Aug 31 21:17:55 2012
+Run ended on Fri Aug 31 21:17:58 2012
+
+Elapsed time was:     00:00:03.43
+CPU time was:         00:00:02.30

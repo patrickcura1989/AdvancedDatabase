@@ -1,0 +1,44 @@
+set echo on
+--
+declare
+  cursor getTables
+  is
+  select TABLE_NAME
+    from USER_XML_TABLES
+   where TABLE_NAME in ('DATA_STAGING_HOL');
+begin
+  for t in getTables() loop
+    execute immediate 'DROP TABLE "' || t.TABLE_NAME || '" PURGE';
+  end loop;
+end;
+/
+declare
+  cursor getTable
+  is
+  select TABLE_NAME
+    from USER_XML_TABLES
+   where TABLE_NAME in ( 'PURCHASEORDER');
+begin
+  for t in getTable() loop
+    execute immediate 'DROP TABLE "' || t.TABLE_NAME || '" PURGE';
+  end loop;
+end;
+/
+declare
+  cursor getSchemas
+  is
+  select SCHEMA_URL
+    from USER_XML_SCHEMAS
+   where SCHEMA_URL in ( 'http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd');
+begin
+  for s in getSchemas() loop
+    DBMS_XMLSCHEMA.deleteSchema(s.SCHEMA_URL,DBMS_XMLSCHEMA.DELETE_CASCADE_FORCE);
+  end loop;
+end;
+/  
+purge recyclebin
+/
+create table DATA_STAGING_HOL
+    of XMLTYPE
+/
+quit

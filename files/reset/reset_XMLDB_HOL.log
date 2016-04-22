@@ -1,0 +1,170 @@
+SQL> --
+SQL> def USERNAME = &1
+SQL> --
+SQL> def PASSWORD = &2
+SQL> --
+SQL> def XMLDIR = "&3"
+SQL> --
+SQL> alter user &USERNAME identified by &PASSWORD account unlock
+  2  /
+old   1: alter user &USERNAME identified by &PASSWORD account unlock
+new   1: alter user OE identified by oe account unlock
+
+User altered.
+
+SQL> grant UNLIMITED TABLESPACE to &USERNAME
+  2  /
+old   1: grant UNLIMITED TABLESPACE to &USERNAME
+new   1: grant UNLIMITED TABLESPACE to OE
+
+Grant succeeded.
+
+SQL> grant create any directory, drop any directory to &USERNAME
+  2  /
+old   1: grant create any directory, drop any directory to &USERNAME
+new   1: grant create any directory, drop any directory to OE
+
+Grant succeeded.
+
+SQL> grant SELECT_CATALOG_ROLE to &USERNAME
+  2  /
+old   1: grant SELECT_CATALOG_ROLE to &USERNAME
+new   1: grant SELECT_CATALOG_ROLE to OE
+
+Grant succeeded.
+
+SQL> grant SELECT ANY DICTIONARY to &USERNAME
+  2  /
+old   1: grant SELECT ANY DICTIONARY to &USERNAME
+new   1: grant SELECT ANY DICTIONARY to OE
+
+Grant succeeded.
+
+SQL> grant unlimited tablespace to &USERNAME
+  2  /
+old   1: grant unlimited tablespace to &USERNAME
+new   1: grant unlimited tablespace to OE
+
+Grant succeeded.
+
+SQL> --
+SQL> connect &USERNAME/&PASSWORD
+Connected.
+SQL> --
+SQL> declare
+  2    cursor getTables
+  3    is
+  4    select TABLE_NAME
+  5  	 from USER_XML_TABLES
+  6  	where TABLE_NAME in ('DATA_STAGING_HOL');
+  7  begin
+  8    for t in getTables() loop
+  9  	 execute immediate 'DROP TABLE "' || t.TABLE_NAME || '" PURGE';
+ 10    end loop;
+ 11  end;
+ 12  /
+
+PL/SQL procedure successfully completed.
+
+SQL> declare
+  2    cursor getTable
+  3    is
+  4    select TABLE_NAME
+  5  	 from USER_XML_TABLES
+  6  	where TABLE_NAME in ( 'PURCHASEORDER');
+  7  begin
+  8    for t in getTable() loop
+  9  	 execute immediate 'DROP TABLE "' || t.TABLE_NAME || '" PURGE';
+ 10    end loop;
+ 11  end;
+ 12  /
+
+PL/SQL procedure successfully completed.
+
+SQL> declare
+  2    cursor getSchemas
+  3    is
+  4    select SCHEMA_URL
+  5  	 from USER_XML_SCHEMAS
+  6  	where SCHEMA_URL in ( 'http://localhost:8080/source/schemas/poSource/xsd/purchaseOrder.xsd');
+  7  begin
+  8    for s in getSchemas() loop
+  9  	 DBMS_XMLSCHEMA.deleteSchema(s.SCHEMA_URL,DBMS_XMLSCHEMA.DELETE_CASCADE_FORCE);
+ 10    end loop;
+ 11  end;
+ 12  /
+
+PL/SQL procedure successfully completed.
+
+SQL> purge recyclebin
+  2  /
+
+Recyclebin purged.
+
+SQL> create table DATA_STAGING_HOL
+  2  	 of XMLTYPE
+  3  /
+
+Table created.
+
+SQL> create or replace directory XMLDIR as '&XMLDIR'
+  2  /
+old   1: create or replace directory XMLDIR as '&XMLDIR'
+new   1: create or replace directory XMLDIR as '/home/oracle/files/reset'
+
+Directory created.
+
+SQL> declare
+  2    cursor getFolderContents
+  3    is
+  4    select ANY_PATH
+  5  	 from RESOURCE_VIEW
+  6  	where UNDER_PATH(res,1,'/home/&USERNAME') = 1;
+  7  begin
+  8    for r in getFolderContents loop
+  9  	 dbms_xdb.deleteResource(r.ANY_PATH,DBMS_XDB.DELETE_RECURSIVE_FORCE);
+ 10    end loop;
+ 11    commit;
+ 12  end;
+ 13  /
+old   6:    where UNDER_PATH(res,1,'/home/&USERNAME') = 1;
+new   6:    where UNDER_PATH(res,1,'/home/OE') = 1;
+
+PL/SQL procedure successfully completed.
+
+SQL> declare
+  2    V_RESULT boolean;
+  3    V_XSD_PATH varchar2(1024) := '/home/&USERNAME/PurchaseOrder.xsd';
+  4  begin
+  5    if DBMS_XDB.existsResource(V_XSD_PATH) then
+  6  	 DBMS_XDB.deleteResource(V_XSD_PATH);
+  7    end if;
+  8    V_RESULT := DBMS_XDB.createResource(V_XSD_PATH,bfilename('XMLDIR','PurchaseOrder.xsd'));
+  9    commit;
+ 10  end;
+ 11  /
+old   3:   V_XSD_PATH varchar2(1024) := '/home/&USERNAME/PurchaseOrder.xsd';
+new   3:   V_XSD_PATH varchar2(1024) := '/home/OE/PurchaseOrder.xsd';
+
+PL/SQL procedure successfully completed.
+
+SQL> select ANY_PATH
+  2    from RESOURCE_VIEW
+  3   where UNDER_PATH(res,'/home/&USERNAME') = 1
+  4  /
+old   3:  where UNDER_PATH(res,'/home/&USERNAME') = 1
+new   3:  where UNDER_PATH(res,'/home/OE') = 1
+
+ANY_PATH                                                                        
+--------------------------------------------------------------------------------
+/home/OE/PurchaseOrder.xsd                                                      
+
+SQL> ne on
+SP2-0042: unknown command "ne on" - rest of line ignored.
+SQL> --
+SQL> commit
+  2  /
+
+Commit complete.
+
+SQL> quit
